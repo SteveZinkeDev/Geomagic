@@ -72,7 +72,7 @@ public class Plot extends JComponent
       {
         g.setColor(pl.get_color());
 
-        // Direkt auf int gecastet fuer diese Aufgabe, da Java Nachkommastellen irrelevant waeren
+        // Direkt auf int gecastet fuer diese Aufgabe, da hier Nachkommastellen vernachlaessigbar waeren (wenn vorhanden)
         // Fuer andere Anwendungsfaelle gegebenfalls runden (Math.round()) oder beibehalten
         // -> zB bei SVGs
         int x1 = (int) l.p1().x();
