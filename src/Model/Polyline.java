@@ -39,9 +39,9 @@ public class Polyline
   {
     Random rand = new Random();
 
-    int r = rand.nextInt(128, 256);
-    int g = rand.nextInt(128, 256);
-    int b = rand.nextInt(128, 256);
+    int r = rand.nextInt(0, 256);
+    int g = rand.nextInt(0, 256);
+    int b = rand.nextInt(0, 256);
 
     set_color(r, g, b);
   }
